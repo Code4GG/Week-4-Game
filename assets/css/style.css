@@ -1,0 +1,101 @@
+body{
+	text-align: center;
+	background-image: url(../images/crystals.jpg);
+	background-size: cover;
+	opacity: 0.9;
+	font-family: 'Righteous', cursive;
+}
+img{
+	width: 100px;
+	height: 100px;
+	float: right;
+	margin-right: 10px;
+	border: 2px solid white;
+}
+h1{
+	background-color: lightblue;
+    height: 50px;
+    font-size: 40px;
+    margin: 10px;
+    padding-top: 5px;
+    color: white;
+    border: 3px solid white;
+    opacity: 0.9;
+}
+.container{
+	background-color: blue;
+	color: white;
+	font-size: 24px;
+	margin: 10px;
+	height: 200px;
+	padding: 10px;
+	border: 3px solid white;
+	opacity: 0.9;
+}
+.randomNumber{
+	float: left;
+	height: 100px;
+	width: 200px;
+	background-color: lavender;
+	color: blue;
+	margin-left: 10px;
+	border: 2px solid white;
+	opacity: 0.9;
+}
+.winDiv{
+	height: 100px;
+	width: 100px;
+	background-color: lightblue;
+	margin-left: 10px;
+	float: left;
+	color: white;
+	border: 2px solid white;
+	opacity: 0.9;
+}
+.loseDiv{
+	height: 100px;
+	width: 100px;
+	background-color: lightblue;
+	margin-left: 10px;
+	float: left;
+	color: white;
+	border: 2px solid white;
+	opacity: 0.9;
+}
+#wins{
+	padding-top: 25px;
+	font-size: 24px;
+}
+#losses{
+	padding-top: 25px;
+	font-size: 24px;
+}
+.total{
+	background-color: lightblue;
+	width: 98%;
+	float: left;
+	color: darkblue;
+	margin:10px;
+	clear: both;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 32px;
+	border: 2px solid white;
+	opacity: 0.9;
+}
+#generatedNumber{
+	font-size: 56px;
+	padding-top: 25px;
+}
+#newGame{
+	clear: both;
+    position: relative;
+    padding: 15px;
+    height: 70px;
+    background-color: mediumpurple;
+    color: white;
+    border: 2px solid white;
+    border-radius: 30%;
+    margin-top: 15px;
+	opacity: 0.9;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystals</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+	<script
+ 	src="https://code.jquery.com/jquery-3.2.1.js"
+  	integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  	crossorigin="anonymous"></script>
+</head>
+<body>
+
+	<h1>Crystal Collector!</h1>
+
+	<div class="container">
+		<p>You will be given a random number at the start of the game on your left.</p>
+		<br>
+		<p>Clicking on a crystal you will add a specific amount of points to your total score.</p>
+		<br>
+		<p>You win by matching your total score with the number.</p>
+		<br>
+		<p>The value of each crystal is hidden from you until you click on it and the value changes after each game win or lose.</p>
+	</div>
+
+	<div class="randomNumber">
+		<p id="generatedNumber"></p>
+	</div>
+	
+	<div class="winDiv">
+		<p id="wins">Wins: <span id="winsNumber"></span></p>
+	</div>
+
+	<div class="loseDiv">
+		<p id="losses">Losses: <span id="lossesNumber"></span></p>
+	</div>
+
+
+	<img id = "purple" src="assets/images/purpleCrystal.jpg">
+	<img id = "clear" src="assets/images/clearCrystal.jpg">
+	<img id = "green" src="assets/images/greenCrystal.jpg">
+	<img id = "yellow" src="assets/images/yellowCrystal.jpg">
+
+	<div class="total">
+		<p>Your Total Score is:<span id="totalScore"> 0</span></p>
+	</div>
+
+	<button id="newGame">Start New Game</button>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+
+</body>
+</html>
