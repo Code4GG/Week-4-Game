@@ -67,6 +67,15 @@
 		$('#totalScore').html(totalScore);
 	}
 
+	function winPopup(){
+		$('#popup').show();
+		setTimeout($('#popup').fadeOut(2600),5000);
+	}
+	function losePopup(){
+		$('#popup2').show();
+		setTimeout($('#popup2').fadeOut(2600),5000);
+	}
+
 
 
 	let totalScore = 0;
@@ -78,17 +87,18 @@
 	//then if the score equals correctNumber wins go up and vice versa if you pass the correctNumber
 	//as well as all the correct values/numbers being reset
 	$('.button').on('click', function(){
-		console.log(this);
 		totalScore = totalScore + parseInt($(this).val());
 		$('#totalScore').html(totalScore);
 
 		 if (totalScore === correctNumber){
 		$('#winsNumber').html(wins++)
+		winPopup();
 		reset();
 
 		}
 	 	else if (totalScore > correctNumber) {
 		$('#lossesNumber').html(losses++)
+		losePopup();
 		reset();
 		}
 
